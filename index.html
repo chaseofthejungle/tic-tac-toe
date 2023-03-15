@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="./app.js"></script>
+</head>
+<body>
+	<div class="main"> <!-- Beginning of Game Board -->
+		<h1>Browser Tic Tac Toe!</h1>
+		<p id="game-directions">
+            <em>Game begins when first move is made.</em><br/><br/>
+            Player 1 uses <strong>X</strong><br/>
+            Player 2 uses <strong>O</strong>
+        </p>
+        <br/><br/>
+
+		<!-- Board Structure: 3 x 3 Cell Grid -->
+		<input type="text" id="cell1" onclick="cell1Checker(); cellSelected();" readonly>
+		<input type="text" id="cell2" onclick="cell2Checker(); cellSelected();" readonly>
+		<input type="text" id="cell3" onclick="cell3Checker(); cellSelected();" readonly>
+		<br/><br/>
+		<input type="text" id="cell4" onclick="cell4Checker(); cellSelected();" readonly>
+		<input type="text" id="cell5" onclick="cell5Checker(); cellSelected();" readonly>
+		<input type="text" id="cell6" onclick="cell6Checker(); cellSelected();" readonly>
+		<br/><br/>
+		<input type="text" id="cell7" onclick="cell7Checker(); cellSelected();" readonly>
+		<input type="text" id="cell8" onclick="cell8Checker(); cellSelected();" readonly>
+		<input type="text" id="cell9" onclick="cell9Checker(); cellSelected();" readonly>
+		<br/><br/><br/>
+
+        <!-- Board Structure: Reset Button -->
+		<button id="reset-btn" onclick="resetGame()">Reset</button>
+
+        <!-- Board Structure: Show Player Turn -->
+		<p id="player-turn"></p>
+	</div> <!-- end of Game Board -->
+</body>
+</html>
