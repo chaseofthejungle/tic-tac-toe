@@ -1,3 +1,3 @@
 # This is a simple Tic-Tac-Toe game web app.
 
-# TODO: Encapsulate player victory message logic into an isolated function.
+TODO: app.js function code could be significantly fewer lines if iteration logic is implemented.
