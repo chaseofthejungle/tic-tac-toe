@@ -13,6 +13,11 @@ h1 {
 
 /* Game Directions Text */
 #game-directions {
+	display: inline-block;
+	margin-bottom: 30px;
+	border-radius: 10px 18px;
+	padding: 10px 20px;
+	background: ghostwhite;
 	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 }
