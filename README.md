@@ -1,3 +1,3 @@
 # This is a simple Tic-Tac-Toe game web app.
 
-TODO: app.js function code could be significantly fewer lines if iteration logic is implemented.
+Consult react-tic-tac-toe project (also a chaseofthejungle GitHub repo: https://github.com/chaseofthejungle/react-tic-tac-toe) for an example of a tic-tac-toe game board that is built out dynamically.
