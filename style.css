@@ -1,6 +1,18 @@
 /* Main App Container */
-.main {
-	background: linear-gradient(to bottom, steelblue, white);
+
+body {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+	background: #00F;
+}
+
+.card {
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 4px;
+    padding: 4vh 5vw;
+    background: linear-gradient(to bottom, steelblue, white);
 	text-align: center;
 }
 
