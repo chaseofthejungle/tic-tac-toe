@@ -2,9 +2,9 @@
 
 body {
     display: flex;
-	justify-content: center;
+    justify-content: center;
     align-items: center;
-	background: #00F;
+    background: #00F;
 }
 
 .card {
@@ -13,7 +13,7 @@ body {
     margin: 4px;
     padding: 4vh 5vw;
     background: linear-gradient(to bottom, steelblue, white);
-	text-align: center;
+    text-align: center;
 }
 
 /* Heading */
@@ -31,7 +31,7 @@ h1 {
 	padding: 10px 20px;
 	background: ghostwhite;
 	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: Times New Roman;
 }
 
 /* All 9 Cells */
