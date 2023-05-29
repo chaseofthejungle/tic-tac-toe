@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #00F;
+    background-image: linear-gradient(to top, steelblue, darkslateblue 60%);
 }
 
 .card {
