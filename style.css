@@ -42,6 +42,7 @@ h1 {
 	width: 90px;
 	height: 60px;
 	background: linear-gradient(to bottom, white, azure);
+	cursor: pointer;
 	font-size: 40px;
 	text-align: center;	
 	color: rgb(0, 0, 0);
@@ -63,7 +64,7 @@ h1 {
 }
 
 #reset-btn:hover {
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 /* Player Turn Message Area */
